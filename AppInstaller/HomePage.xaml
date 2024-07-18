@@ -1,0 +1,17 @@
+﻿<Page x:Class="AppInstaller.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AppInstaller"
+      mc:Ignorable="d"
+      Height="500" Width="600">
+
+    <Grid Height="500" VerticalAlignment="Top">
+        <Image HorizontalAlignment="Left" Height="406" Width="200" VerticalAlignment="Top"/>
+        <Rectangle Margin="0,0,400,90" Width="200" Fill="Beige"/>
+        <Rectangle HorizontalAlignment="Center" Fill="#F5F5F5" Width="600" Height="56" VerticalAlignment="Top" Margin="0,407,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Fill="Purple" Width="600" Height="37" VerticalAlignment="Top" Margin="0,463,0,0"/>
+        <Button Content="Commencer" HorizontalAlignment="Left" Height="26" Margin="471,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click"/>
+    </Grid>
+</Page>
