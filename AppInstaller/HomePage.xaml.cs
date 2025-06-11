@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace AppInstaller
@@ -12,12 +13,23 @@ namespace AppInstaller
         {
             this.window = window;
             this.configuration = configuration;
+
             InitializeComponent();
+
+            title.Content = configuration.title;
+            author.Content = $"Créé par {configuration.author}";
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Next(object sender, RoutedEventArgs e)
         {
             window.Navigate(NavPage.PATHS);
         }
+
+        private void Button_Click_Quit(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+
     }
 }

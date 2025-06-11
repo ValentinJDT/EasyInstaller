@@ -5,9 +5,17 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AppInstaller"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800">
+      d:DesignHeight="500" d:DesignWidth="600">
 
-    <Grid>
-        
+    <Grid Height="500" VerticalAlignment="Top">
+        <Image HorizontalAlignment="Left" Height="406" Width="200" VerticalAlignment="Top"/>
+        <Rectangle Margin="0,0,400,90" Width="200" Fill="Beige"/>
+        <Rectangle HorizontalAlignment="Center" Fill="#F5F5F5" Width="600" Height="56" VerticalAlignment="Top" Margin="0,407,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Fill="Purple" Width="600" Height="37" VerticalAlignment="Top" Margin="0,463,0,0"/>
+
+        <Button Content="Retour" HorizontalAlignment="Left" Height="26" Margin="359,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Back"/>
+        <Button Content="Continuer" HorizontalAlignment="Left" Height="26" Margin="471,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Next"/>
+        <ListBox x:Name="requiredList"  Margin="234,128,34,166"/>
+        <Label Content="Les éléments suivants seront installés :" HorizontalAlignment="Left" Margin="234,102,0,0" VerticalAlignment="Top" Width="330"/>
     </Grid>
 </Page>

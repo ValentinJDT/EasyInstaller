@@ -3,36 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\InstallationPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\InstallationPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\RequiresPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\RequiresPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\appinstaller\\resources\\setup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\resources\\setup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\appinstaller\\requirespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\requirespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\HomePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\ContentElement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\ContentElement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\Configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\installationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\installationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\PathsPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\PathsPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\PathsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\PathsPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\Page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\appinstaller\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\HomePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\contentelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\contentelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\installationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\installationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|c:\\users\\v.jeandot\\source\\repos\\appinstaller\\appinstaller\\requirespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:appinstaller\\requirespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2D40FC-2D29-4294-8F8C-7888A7903A90}|AppInstaller\\AppInstaller.csproj|solutionrelative:AppInstaller\\Link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,70 +70,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Page.cs",
               "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Page.cs",
               "RelativeDocumentMoniker": "AppInstaller\\Page.cs",
               "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Page.cs",
               "RelativeToolTip": "AppInstaller\\Page.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T14:57:43.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "AppInstaller\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml.cs",
-              "RelativeToolTip": "AppInstaller\\HomePage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T14:55:28.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AppInstaller\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml.cs",
-              "RelativeToolTip": "AppInstaller\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T14:55:22.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AppInstaller\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml",
-              "RelativeToolTip": "AppInstaller\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-18T14:55:19.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T14:57:43.103Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Link.cs",
-              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Link.cs",
-              "RelativeDocumentMoniker": "AppInstaller\\Link.cs",
-              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Link.cs",
-              "RelativeToolTip": "AppInstaller\\Link.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T14:55:13.955Z",
+              "Title": "InstallationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\InstallationPage.xaml",
+              "RelativeDocumentMoniker": "AppInstaller\\InstallationPage.xaml",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\InstallationPage.xaml",
+              "RelativeToolTip": "AppInstaller\\InstallationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T12:32:33.771Z",
               "EditorCaption": ""
             },
             {
@@ -116,26 +104,53 @@
               "RelativeDocumentMoniker": "AppInstaller\\ContentElement.cs",
               "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\ContentElement.cs",
               "RelativeToolTip": "AppInstaller\\ContentElement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T14:55:05.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InstallationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\InstallationPage.xaml",
-              "RelativeDocumentMoniker": "AppInstaller\\InstallationPage.xaml",
-              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\InstallationPage.xaml",
-              "RelativeToolTip": "AppInstaller\\InstallationPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-18T14:49:53.737Z",
+              "DocumentIndex": 4,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "AppInstaller\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml.cs",
+              "RelativeToolTip": "AppInstaller\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T07:38:15.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "RequiresPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\RequiresPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppInstaller\\RequiresPage.xaml.cs",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\RequiresPage.xaml.cs",
+              "RelativeToolTip": "AppInstaller\\RequiresPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:07:21.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "setup.json",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Resources\\setup.json",
+              "RelativeDocumentMoniker": "AppInstaller\\Resources\\setup.json",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Resources\\setup.json",
+              "RelativeToolTip": "AppInstaller\\Resources\\setup.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T09:58:18.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RequiresPage.xaml",
               "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\RequiresPage.xaml",
               "RelativeDocumentMoniker": "AppInstaller\\RequiresPage.xaml",
@@ -144,6 +159,101 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-18T14:49:46.699Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Configuration.cs",
+              "RelativeDocumentMoniker": "AppInstaller\\Configuration.cs",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Configuration.cs",
+              "RelativeToolTip": "AppInstaller\\Configuration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:45:28.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PathsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\PathsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppInstaller\\PathsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\PathsPage.xaml.cs",
+              "RelativeToolTip": "AppInstaller\\PathsPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAASwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:28:03.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InstallationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\InstallationPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppInstaller\\InstallationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\InstallationPage.xaml.cs",
+              "RelativeToolTip": "AppInstaller\\InstallationPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:01:48.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppInstaller\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AppInstaller\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:55:22.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PathsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\PathsPage.xaml",
+              "RelativeDocumentMoniker": "AppInstaller\\PathsPage.xaml",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\PathsPage.xaml",
+              "RelativeToolTip": "AppInstaller\\PathsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T10:02:03.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AppInstaller\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\MainWindow.xaml",
+              "RelativeToolTip": "AppInstaller\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T14:55:19.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml",
+              "RelativeDocumentMoniker": "AppInstaller\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\HomePage.xaml",
+              "RelativeToolTip": "AppInstaller\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T09:44:16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Link.cs",
+              "DocumentMoniker": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Link.cs",
+              "RelativeDocumentMoniker": "AppInstaller\\Link.cs",
+              "ToolTip": "C:\\Users\\v.jeandot\\source\\repos\\AppInstaller\\AppInstaller\\Link.cs",
+              "RelativeToolTip": "AppInstaller\\Link.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:55:13.955Z"
             }
           ]
         }

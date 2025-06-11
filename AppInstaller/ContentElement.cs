@@ -4,7 +4,7 @@ using System.Net;
 
 namespace AppInstaller
 {
-    internal class ContentElement
+    public class ContentElement
     {
         [JsonProperty("install_path")]
         public string installPath;

@@ -9,7 +9,7 @@ using System.Windows;
 
 namespace AppInstaller
 {
-    internal class RequiredElement
+    public class RequiredElement
     {
 
         public InstallType type = InstallType.Link;
@@ -128,13 +128,14 @@ namespace AppInstaller
         }
     }
 
-    internal enum InstallType
+    public enum InstallType
     {
         Winget,
         Link,
         Inside
     }
-    internal enum Action
+
+    public enum Action
     {
         Unzip,
         Run

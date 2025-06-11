@@ -13,26 +13,36 @@ namespace AppInstaller
     public class Configuration
     {
 
-        string title;
+        public string title;
 
         [JsonProperty("default_workdir")]
-        string defaultWorkdir;
+        public string defaultWorkdir;
+
+        public string author;
 
         [JsonProperty("temp_directory")]
-        string tempDirectory = Environment.GetEnvironmentVariable("TEMP");
+        public string tempDirectory = Environment.GetEnvironmentVariable("TEMP");
 
-        List<ContentElement> contents = new List<ContentElement>();
+        public List<ContentElement> contents = new List<ContentElement>();
 
-        List<RequiredElement> requires = new List<RequiredElement>();
-
+        public List<RequiredElement> requires = new List<RequiredElement>();
 
         public void InstallRequires()
         {
             foreach(var required in requires)
             {
                 required.Install(defaultWorkdir, tempDirectory);
+                int percentage = ((requires.IndexOf(required)+1) / requires.Count) * 100;
             }
+        }
 
+        public void Install()
+        {
+            foreach (var content in contents)
+            {
+                content.Install(defaultWorkdir);
+                int percentage = ((contents.IndexOf(content) + 1) / contents.Count) * 100;
+            }
         }
 
         public static Configuration Load()

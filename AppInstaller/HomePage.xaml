@@ -12,6 +12,11 @@
         <Rectangle Margin="0,0,400,90" Width="200" Fill="Beige"/>
         <Rectangle HorizontalAlignment="Center" Fill="#F5F5F5" Width="600" Height="56" VerticalAlignment="Top" Margin="0,407,0,0"/>
         <Rectangle HorizontalAlignment="Center" Fill="Purple" Width="600" Height="37" VerticalAlignment="Top" Margin="0,463,0,0"/>
-        <Button Content="Commencer" HorizontalAlignment="Left" Height="26" Margin="471,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click"/>
+        <Button Content="Commencer" HorizontalAlignment="Left" Height="26" Margin="471,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Next"/>
+        <Button Content="Quitter" HorizontalAlignment="Left" Height="26" Margin="359,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Quit"/>
+
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="24" HorizontalAlignment="Left" Height="40" Margin="262,72,0,0" VerticalAlignment="Top" Width="288" Content="Installation de"/>
+        <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="24" HorizontalAlignment="Left" Height="40" Margin="262,112,0,0" VerticalAlignment="Top" Width="288" x:Name="title"/>
+        <Label x:Name="author" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Content="Label" Margin="210,381,10,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

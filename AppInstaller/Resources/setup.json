@@ -2,6 +2,7 @@
   "title": "Sample App",
   "default_workdir": "C:\\Program Files",
   "temp_directory": "%TEMP%",
+  "author":  "Test Inc.",
   "requires": [
     {
       "type": "winget",
@@ -15,8 +16,8 @@
       "name": "OpenJDK21U-jre_x64_windows_hotspot_21.0.3_9",
       "links": [
         {
-          "uri": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/602574963/8abd5054-ebea-4531-b158-c55efbb05c5b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240718%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240718T081938Z&X-Amz-Expires=300&X-Amz-Signature=e257c7face3eea3aff465a25aa4058a73c08ce5ff34da305e046103ae884e73a&X-Amz-SignedHeaders=host&actor_id=113336654&key_id=0&repo_id=602574963&response-content-disposition=attachment%3B%20filename%3DOpenJDK21U-jre_x64_windows_hotspot_21.0.3_9.zip&response-content-type=application%2Foctet-stream",
-          "filename": "OpenJDK21U-jre_x64_windows_hotspot_21.0.3_9.zip"
+            "uri": "https://drive.usercontent.google.com/download?id=1-rlnjzIgVhWSmEQ5QPi45SEA5_wvhNkX&export=download&authuser=0&confirm=t&uuid=0e56d59c-8afa-415a-a71a-f27693877b9a&at=ALoNOgkc3sek1ZsjnLjnfWq_1_FC:1749643710327",
+            "filename": "OpenJDK21U-jre_x64_windows_hotspot_21.0.3_9.zip"
         }
       ],
       "action": "unzip",

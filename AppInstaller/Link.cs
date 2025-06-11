@@ -1,6 +1,6 @@
 ﻿namespace AppInstaller
 {
-    internal class Link
+    public class Link
     {
         public string uri;
         public string filename;

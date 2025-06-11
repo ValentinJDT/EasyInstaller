@@ -28,6 +28,18 @@ namespace AppInstaller
             this.window = window;
             this.configuration = configuration;
             InitializeComponent();
+
+            this.configuration.InstallRequires();
+        }
+
+        private void Button_Click_Stop(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void Button_Click_Back(object sender, RoutedEventArgs e)
+        {
+            window.Navigate(NavPage.REQUIRES);
         }
     }
 }
