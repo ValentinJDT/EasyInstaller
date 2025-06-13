@@ -1,17 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace AppInstaller
 {
@@ -29,7 +18,30 @@ namespace AppInstaller
             this.configuration = configuration;
             InitializeComponent();
 
+            this.configuration.RequireProgressEventHandler += Configuration_RequireProgressEventHandler;
+            this.configuration.ContentProgressEventHandler += Configuration_ContentProgressEventHandler;
+        }
+
+        public void StartInstallation()
+        {
             this.configuration.InstallRequires();
+            this.configuration.Install();
+        }
+
+        private void Configuration_ContentProgressEventHandler(object sender, ProgressEventArgs e)
+        {
+            contentBar.Dispatcher.Invoke(() =>
+            {
+                contentBar.Value = e.percentage;
+            });
+        }
+
+        private void Configuration_RequireProgressEventHandler(object sender, ProgressEventArgs e)
+        {
+            requiredBar.Dispatcher.Invoke(() =>
+            {
+                requiredBar.Value = e.percentage;
+            });
         }
 
         private void Button_Click_Stop(object sender, RoutedEventArgs e)
@@ -39,6 +51,8 @@ namespace AppInstaller
 
         private void Button_Click_Back(object sender, RoutedEventArgs e)
         {
+            this.configuration.RequireProgressEventHandler -= Configuration_RequireProgressEventHandler;
+            this.configuration.ContentProgressEventHandler -= Configuration_ContentProgressEventHandler;
             window.Navigate(NavPage.REQUIRES);
         }
     }

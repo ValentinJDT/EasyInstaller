@@ -14,6 +14,9 @@
         <Rectangle HorizontalAlignment="Center" Fill="Purple" Width="600" Height="37" VerticalAlignment="Top" Margin="0,463,0,0"/>
         <Button Content="Terminer" HorizontalAlignment="Left" Height="26" Margin="471,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Stop"/>
         <Button Content="Retour" HorizontalAlignment="Left" Height="26" Margin="359,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Back"/>
-        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="234,205,0,0" VerticalAlignment="Top" Width="332"/>
+        <Label Content="Installation des prérequis :" HorizontalAlignment="Left" Margin="234,221,0,0" VerticalAlignment="Top" Width="190"/>
+        <ProgressBar x:Name="requiredBar" Minimum="0" Maximum="100" Value="0" HorizontalAlignment="Left" Height="10" Margin="234,197,0,0" VerticalAlignment="Top" Width="332"/>
+        <Label Content="Installation de l'application :" HorizontalAlignment="Left" Margin="234,173,0,0" VerticalAlignment="Top" Width="190"/>
+        <ProgressBar x:Name="contentBar" Minimum="0" Maximum="100" Value="0" HorizontalAlignment="Left" Height="10" Margin="234,0,0,0" VerticalAlignment="Center" Width="332"/>
     </Grid>
 </Page>

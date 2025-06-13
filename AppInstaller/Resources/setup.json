@@ -1,5 +1,5 @@
 {
-  "title": "Sample App",
+  "name": "Sample App",
   "default_workdir": "C:\\Program Files",
   "temp_directory": "%TEMP%",
   "author":  "Test Inc.",
@@ -13,11 +13,11 @@
     },
     {
       "type": "link",
-      "name": "OpenJDK21U-jre_x64_windows_hotspot_21.0.3_9",
+      "name": "OpenJDK21U-jre_x64_windows_hotspot_21.0.7_6",
       "links": [
         {
-            "uri": "https://drive.usercontent.google.com/download?id=1-rlnjzIgVhWSmEQ5QPi45SEA5_wvhNkX&export=download&authuser=0&confirm=t&uuid=0e56d59c-8afa-415a-a71a-f27693877b9a&at=ALoNOgkc3sek1ZsjnLjnfWq_1_FC:1749643710327",
-            "filename": "OpenJDK21U-jre_x64_windows_hotspot_21.0.3_9.zip"
+          "uri": "https://github.com/ValentinJDT/files/raw/refs/heads/main/OpenJDK21U-jre_x64_windows_hotspot_21.0.7_6.zip",
+          "filename": "OpenJDK21U-jre_x64_windows_hotspot_21.0.7_6.zip"
         }
       ],
       "action": "unzip",

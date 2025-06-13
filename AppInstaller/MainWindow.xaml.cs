@@ -28,7 +28,10 @@ namespace AppInstaller
                     frame.Content = new RequiresPage(this, config);
                     break;
                 case NavPage.INSTALLATION:
-                    frame.Content = new InstallationPage(this, config);
+                    InstallationPage installationPage = new InstallationPage(this, config);
+                    frame.Content = installationPage;
+
+                    installationPage.StartInstallation();
                     break;
             }
         }

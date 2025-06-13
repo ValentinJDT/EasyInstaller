@@ -14,11 +14,11 @@
         <Rectangle HorizontalAlignment="Center" Fill="Purple" Width="600" Height="37" VerticalAlignment="Top" Margin="0,463,0,0"/>
         <Button Content="Continuer" HorizontalAlignment="Left" Height="26" Margin="471,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Next"/>
         <Button Content="Retour" HorizontalAlignment="Left" Height="26" Margin="359,422,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_Back"/>
-        <TextBox x:Name="defaultWorkdir" HorizontalAlignment="Left" Margin="340,237,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="149" Height="22" TextChanged="defaultWorkdir_TextChanged"/>
-        <Label Content="Chemin d'installation" HorizontalAlignment="Left" Margin="211,235,0,0" VerticalAlignment="Top" Width="124" Height="26" VerticalContentAlignment="center" HorizontalContentAlignment="Right"/>
-        <Button x:Name="changeDir" Content="Changer" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="494,237,0,0" VerticalAlignment="Top" Height="22" Width="53" Click="changeDir_Click"/>
-        <Button x:Name="changeTemp" Content="Changer" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="494,275,0,0" VerticalAlignment="Top" Height="22" Width="53" Click="changeTemp_Click" />
-        <TextBox x:Name="tempDir" HorizontalAlignment="Left" Margin="340,275,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="149" Height="22" TextChanged="tempDir_TextChanged"/>
-        <Label Content="Chemin temporaire" HorizontalAlignment="Left" Margin="211,271,0,0" VerticalAlignment="Top" Width="124" Height="26" VerticalContentAlignment="center" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="defaultWorkdir" HorizontalAlignment="Left" Margin="340,206,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="149" Height="22" TextChanged="defaultWorkdir_TextChanged"/>
+        <Label Content="Chemin d'installation" HorizontalAlignment="Left" Margin="211,204,0,0" VerticalAlignment="Top" Width="124" Height="26" VerticalContentAlignment="center" HorizontalContentAlignment="Right"/>
+        <Button x:Name="changeDir" Content="Changer" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="494,206,0,0" VerticalAlignment="Top" Height="22" Width="53" Click="changeDir_Click"/>
+        <Button x:Name="changeTemp" Content="Changer" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="494,263,0,0" VerticalAlignment="Top" Height="22" Width="53" Click="changeTemp_Click" />
+        <TextBox x:Name="tempDir" HorizontalAlignment="Left" Margin="340,263,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="149" Height="22" TextChanged="tempDir_TextChanged"/>
+        <Label Content="Chemin temporaire" HorizontalAlignment="Left" Margin="211,259,0,0" VerticalAlignment="Top" Width="124" Height="26" VerticalContentAlignment="center" HorizontalContentAlignment="Right"/>
     </Grid>
 </Page>

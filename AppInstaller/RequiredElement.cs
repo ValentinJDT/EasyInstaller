@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -33,15 +32,14 @@ namespace AppInstaller
                             {
                                 string zipPath = tempDirectory + "/" + link.filename;
 
-                                DownloadFile(link.uri, zipPath);
-
-                                var outputDir = installPath + "/" + link.filename.Replace(".zip", "") + "/";
-
-                                if (!Directory.Exists(outputDir))
+                                var outputDir = (installPath == "." ? defaultWorkdir : installPath) + "/" + link.filename.Replace(".zip", "") + "/";
+                                if(!Directory.Exists(outputDir))
+                                {
                                     Directory.CreateDirectory(outputDir);
-
-                                ZipFile.ExtractToDirectory(zipPath, outputDir);
-                                File.Delete(zipPath);
+                                    DownloadFile(link.uri, zipPath);
+                                    ZipFile.ExtractToDirectory(zipPath, outputDir);
+                                    File.Delete(zipPath);
+                                }
                             }
                             break;
 
@@ -58,7 +56,7 @@ namespace AppInstaller
                         default:
                             foreach (var link in links)
                             {
-                                string dirPath = tempDirectory + "/" + installPath + "/";
+                                string dirPath = defaultWorkdir + "/" + (installPath == "." ? "" : (installPath + "/"));
 
                                 if (!Directory.Exists(dirPath))
                                     Directory.CreateDirectory(dirPath);

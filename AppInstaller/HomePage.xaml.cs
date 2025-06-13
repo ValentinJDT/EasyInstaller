@@ -16,7 +16,7 @@ namespace AppInstaller
 
             InitializeComponent();
 
-            title.Content = configuration.title;
+            title.Content = configuration.name;
             author.Content = $"Créé par {configuration.author}";
         }
 
@@ -29,7 +29,6 @@ namespace AppInstaller
         {
             Environment.Exit(0);
         }
-
 
     }
 }
